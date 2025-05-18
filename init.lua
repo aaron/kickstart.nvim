@@ -698,6 +698,17 @@ require('lazy').setup({
             },
           },
         },
+        ruby_lsp = {
+          init_options = {
+            addonSettings = {
+              ['Ruby LSP Rails'] = {
+                enablePendingMigrationsPrompt = false,
+              },
+            },
+            formatter = 'standard',
+            linters = { 'standard' },
+          },
+        },
       }
 
       -- Ensure the servers and tools above are installed
