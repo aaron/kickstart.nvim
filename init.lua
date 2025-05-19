@@ -166,6 +166,10 @@ vim.o.scrolloff = 4
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- Enable spell checking
+vim.opt.spell = true
+vim.opt.spelllang = { 'en_us' }
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
